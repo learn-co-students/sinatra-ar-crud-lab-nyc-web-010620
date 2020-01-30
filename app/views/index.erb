@@ -1,0 +1,6 @@
+<%# @articles is an array; each object in the array is an article %>
+<ul>
+<% @articles.each do |article|%>
+   <li><%= article.title %></li>
+<%end%>
+</ul>
